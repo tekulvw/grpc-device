@@ -1,5 +1,7 @@
 #include "semaphore.h"
 
+#include <mutex>
+
 namespace nidevice_grpc {
 
 Semaphore::Semaphore(int count)
